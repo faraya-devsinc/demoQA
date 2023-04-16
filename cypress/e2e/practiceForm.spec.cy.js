@@ -5,8 +5,6 @@ import 'cypress-file-upload'
 //This is for uploading image using cypress , we also installed this via npm
 
 const { e2e } = require("../../cypress.config");
-// not a good practice to use in cy files
-Cypress. on('uncaught:exception', (err, runnable) => { return false; });
 //funtion() is same as () =>
 
     it('Fills entire practice form', () => {
